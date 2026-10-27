@@ -2,6 +2,8 @@
 
 Aplicación web de una sola página para trabajar con documentos y grabaciones **sin subirlos a la nube**: todo el procesamiento ocurre en el navegador de tu equipo.
 
+**👉 Úsala en línea: [adfincarserv-source.github.io/transcripcion](https://adfincarserv-source.github.io/transcripcion/)**
+
 ## Funciones
 
 | Pestaña | Qué hace | Salida |
@@ -17,10 +19,17 @@ Aplicación web de una sola página para trabajar con documentos y grabaciones *
 
 ## Cómo usarla
 
+### En línea (recomendado)
+
+Abre **https://adfincarserv-source.github.io/transcripcion/** en Chrome o Edge (computador) o en el navegador del celular. GitHub solo entrega la página: tus archivos se procesan en tu dispositivo y no se suben a ningún servidor.
+
+### Sin conexión a GitHub
+
 1. Descarga el repositorio (botón **Code → Download ZIP**) y descomprímelo.
 2. En Windows, haz doble clic en **`Iniciar.bat`**. Se abre la app en `http://localhost:8765`, un servidor que solo existe en tu equipo.
    - Alternativa: abre `index.html` directamente en Chrome o Edge.
-3. Elige una carpeta o archivos, ajusta las opciones y pulsa **Procesar**.
+
+Luego elige una carpeta o archivos, ajusta las opciones y pulsa **Procesar**.
 
 > La primera vez se necesita internet para descargar las librerías y los modelos (datos de OCR y el modelo Whisper elegido, entre 75 MB y 1 GB). Quedan guardados en el navegador. Tus archivos nunca salen de tu equipo.
 
